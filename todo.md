@@ -1,0 +1,6 @@
+- [x] add /precourse
+- [x] add /intro-week
+- [ ] add /fundamentals
+- [ ] add /backend
+- [ ] add /frontend
+- [ ] add /projects
