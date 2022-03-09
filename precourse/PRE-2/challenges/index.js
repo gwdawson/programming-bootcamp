@@ -145,14 +145,13 @@ function replaceLettersWithXs(str) {
 }
 
 function validMobileNumber(num) {
-  // TODO => Take an in-depth look at regex then come back to this problem.
-  /*
-    This function will receive the string of a mobile number. It should return true if the number is a valid UK number and false if not.
-    A valid mobile number may begin with '07' followed by 9 more digits.
-    It may also begin with '+447' followed by 9 more digits.
-    It may also begin with '00447' followed by 9 more digits.
-    Anything else is invalid.
-  */
+  // checks number against regex pattern to see if it is valid.
+  if (/^07[\d]{9}$/.test(num) || /^\+447[\d]{9}$/.test(num) || /^00447[\d]{9}$/.test(num)) {
+    // if valid return true
+    return true;
+  }
+  // if not valid return false
+  return false;
 }
 
 function sumDigitsFromString(str) {

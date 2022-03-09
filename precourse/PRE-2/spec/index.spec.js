@@ -308,7 +308,7 @@ describe('replaceLettersWithXs', () => {
   });
 });
 
-xdescribe('validMobileNumber', () => {
+describe('validMobileNumber', () => {
   it('returns false when passed a string of the wrong length', () => {
     expect(validMobileNumber('123')).to.equal(false);
     expect(validMobileNumber('0750617250638')).to.equal(false);
