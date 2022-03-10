@@ -26,5 +26,11 @@ Fundamentals {
     'getFragment'
     'calculateConfectioneryCosts'
   }
+  fun-katas {
+    'herd-the-babies'
+    'morse-code'
+    'pig-latin'
+    'rotate-array'
+  }
 }
 ```
