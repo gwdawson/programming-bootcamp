@@ -32,5 +32,14 @@ Fundamentals {
     'pig-latin'
     'rotate-array'
   }
+  fun-lowbar {
+    '_.map'
+    '_.filter'
+    '_.forEach'
+    '_.invert'
+    '_.zip'
+    '_.fill'
+    '_.find'
+  }
 }
 ```
