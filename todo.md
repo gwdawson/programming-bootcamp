@@ -41,5 +41,20 @@ Fundamentals {
     '_.fill'
     '_.find'
   }
+  fun-higher-order-workshop {
+    'hof.from'
+    'hof.from'
+    'hof.to'
+    'hof.fromTo'
+    'hof.element'
+    'hof.collect'
+    'hof.filter'
+    'hof.concat'
+    'hof.fibonaccif'
+    'hof.gensymf'
+    'hof.gensymff'
+    'hof.counter'
+    'hof.revokable'
+  }
 }
 ```
