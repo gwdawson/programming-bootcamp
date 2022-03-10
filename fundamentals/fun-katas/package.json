@@ -1,0 +1,23 @@
+{
+  "name": "fun-katas",
+  "version": "1.0.0",
+  "description": "## Running Order",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwdawson/fun-katas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwdawson/fun-katas/issues"
+  },
+  "homepage": "https://github.com/gwdawson/fun-katas#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
