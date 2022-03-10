@@ -1,0 +1,17 @@
+{
+  "name": "higher-order-fun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/northcoders/w02-higher-order-fun.git",
+    "type": "git"
+  },
+  "author": "Mauro Gestoso <mauro@northcoders.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
