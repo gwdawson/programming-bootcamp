@@ -1,0 +1,23 @@
+{
+  "name": "fun-data-structures",
+  "version": "1.0.0",
+  "description": "In this sprint you will be implementing 2 data structures that are commonly used in computer science: [stacks](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm) and [queues](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwdawson/fun-data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwdawson/fun-data-structures/issues"
+  },
+  "homepage": "https://github.com/gwdawson/fun-data-structures#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
