@@ -1,0 +1,23 @@
+{
+  "name": "October-wk02-recursion",
+  "version": "1.0.0",
+  "description": "Recursion crops up repeatedly both in web development and in computer science in general. It's used to traverse more complex data structures such as trees. The DOM, for example, is a classic tree structure.",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northcoders/October-wk02-recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northcoders/October-wk02-recursion/issues"
+  },
+  "homepage": "https://github.com/northcoders/October-wk02-recursion#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
