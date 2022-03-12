@@ -1,0 +1,26 @@
+{
+  "name": "fun-pokemon-battler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwdawson/fun-pokemon-battler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwdawson/fun-pokemon-battler/issues"
+  },
+  "homepage": "https://github.com/gwdawson/fun-pokemon-battler#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
