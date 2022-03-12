@@ -59,5 +59,10 @@ Fundamentals {
   fun-top-trumps {
     'complete all'
   }
+  fun-revision-day {
+    'invert'
+    'flip'
+    'deeplyEquals'
+  }
 }
 ```
