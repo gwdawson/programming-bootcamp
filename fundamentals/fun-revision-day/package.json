@@ -1,0 +1,23 @@
+{
+  "name": "fun-review-1",
+  "version": "1.0.0",
+  "description": "For this block review, you have several specifications which need to be completed. You are expected to use full TDD in order to demonstrate your understanding of the questions and of good TDD practices. Good luck!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest challenges/1 --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northcoders/fun-review-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northcoders/fun-review-1/issues"
+  },
+  "homepage": "https://github.com/northcoders/fun-review-1#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
