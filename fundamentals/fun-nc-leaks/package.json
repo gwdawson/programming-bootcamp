@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.1",
+    "superagent": "^7.1.1"
+  },
+  "scripts": {
+    "getPokeStat": "node ./spike.js"
+  },
+  "bin": {
+    "getStat": "./spike.js"
+  }
+}
