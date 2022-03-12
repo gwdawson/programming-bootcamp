@@ -56,5 +56,8 @@ Fundamentals {
     'hof.counter'
     'hof.revokable'
   }
+  fun-top-trumps {
+    'complete all'
+  }
 }
 ```
