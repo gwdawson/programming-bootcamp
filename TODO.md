@@ -1,10 +1,3 @@
-- [x] add /precourse
-- [x] add /intro-week
-- [ ] add /fundamentals
-- [ ] add /backend
-- [ ] add /frontend
-- [ ] add /projects
-
 ```js
 Fundamentals {
   fun-pairing-katas {
@@ -70,5 +63,17 @@ Fundamentals {
     'projectGenerator'
     'asynchronousFunctions'
   }
+}
+```
+
+```js
+Backend {
+
+}
+```
+
+```js
+Frontend {
+
 }
 ```
