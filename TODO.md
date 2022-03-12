@@ -64,5 +64,11 @@ Fundamentals {
     'flip'
     'deeplyEquals'
   }
+  fun-callback-heaven {
+    'kickLegacyServerUntilItWorks'
+    'buySingleOutfit'
+    'projectGenerator'
+    'asynchronousFunctions'
+  }
 }
 ```
