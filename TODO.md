@@ -70,8 +70,8 @@ Fundamentals {
 
 ```js
 Backend {
-  be-book-server {
-    ''
+  be-pets-and-owners {
+    'DELETE: remove an owner'
   }
 }
 ```
