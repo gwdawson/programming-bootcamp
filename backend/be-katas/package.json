@@ -1,0 +1,22 @@
+{
+  "name": "be-b3-katas",
+  "version": "1.0.0",
+  "description": "Katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northcoders/CORE-B1-katas.git"
+  },
+  "author": "Northcoders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northcoders/CORE-B1-katas/issues"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "homepage": "https://github.com/northcoders/CORE-B1-katas#readme"
+}
