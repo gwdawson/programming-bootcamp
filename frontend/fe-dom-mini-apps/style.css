@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --default-font-color: #ffffff;
+  --default-background-color: #1f1f1f;
+  --default-accent-color: #252526;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  color: var(--default-font-color);
+  background-color: var(--default-background-color);
+}
+
+#title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  color: var(--default-font-color);
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  font-size: 28px;
+}
+
+.turn {
+  margin-top: 15px;
+}
+
+#player-text {
+  margin-bottom: 40px;
+}
+
+footer {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background-color: var(--default-accent-color);
+}
