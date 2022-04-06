@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>form validation</title>
+  </head>
+  <body>
+    <main>
+      <div id="error" class="alert alert-danger alert-dismissible display-none" role="alert">
+        Error: add error message here...
+      </div>
+      <form class="flex center" action="success.html">
+        <input type="text" name="FirstName" placeholder="FirstName" required />
+        <input type="text" name="LastName" placeholder="LastName" required />
+        <input type="text" name="UserName" placeholder="UserName" required />
+        <input type="text" name="AvatarURL" placeholder="AvatarURL" required />
+        <button>Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

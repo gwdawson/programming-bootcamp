@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-dark-1: #121212;
+  --background-dark-2: #1e1e1e;
+  --font-light: #e2e2e2;
+}
+
+body {
+  background: var(--background-dark-1);
+  font-family: sans-serif;
+  font-size: 16px;
+  color: var(--font-light);
+}
+
+form {
+  margin: 0;
+  padding: 20px;
+  background: var(--background-dark-2);
+  border-radius: 5px;
+  min-width: 600px;
+  min-height: 300px;
+}
+
+form > input {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+form > button {
+  text-align: center;
+  font-size: 20px;
+  width: 60%;
+  height: 100%;
+  background: rgb(197, 197, 197);
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+form > button:hover {
+  animation-name: yesThisIsTheBEst;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-none {
+  display: none;
+}
+
+.alert {
+  position: absolute !important;
+  top: 30% !important;
+  left: 50% !important;
+  transform: translate(-50%, -30%) !important;
+  min-width: 600px !important;
+}
+
+@keyframes yesThisIsTheBEst {
+  0% {
+    background: #30b457;
+  }
+  10% {
+    background: #2c45d4;
+  }
+  20% {
+    background: #09d3ee;
+  }
+  30% {
+    background: #3bb430;
+  }
+  40% {
+    background: #d330f0;
+  }
+  50% {
+    background: #30b457;
+  }
+  60% {
+    background: #f7e814;
+  }
+  70% {
+    background: #97aeaf;
+  }
+  80% {
+    background: #086825;
+  }
+  90% {
+    background: #ffeb3b;
+  }
+  100% {
+    background: #ff0000;
+  }
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5%;
+}
+
+.first-last-name {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #adadad;
+}
+
+.username {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #8b8b8b;
+}
+
+.success-body {
+  background-color: #343434;
+}
