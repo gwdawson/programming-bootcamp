@@ -1,39 +1,15 @@
-## Project Description
-
-`work in progress`
+## Northcoders Coding Bootcamp
 
 ```
-My solutions and projects from Northcoders Coding Bootcamp
-```
-
-## Tools and Technologies
-
-```
-JavaScript:
-  - express
-  - dotenv
-  - pg
-  - axios
-  - jest
-  - supertest
-  - inquirer
-  - nodemon
-```
-
-## Setup
-
+My coding projects from Northcoders Coding Bootcamp
 ```
 
 ```
+This app was built with the following Tools and Technologies:
 
-## Usage
-
-```
-
-```
-
-## Acknowledgements
-
-```
-
+- PostgreSQL
+- Express
+- React
+- Node
+- Jest
 ```
