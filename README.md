@@ -1,7 +1,7 @@
 ## Northcoders Coding Bootcamp
 
 ```
-My coding projects from Northcoders Coding Bootcamp
+My code and projects from Northcoders Coding Bootcamp
 ```
 
 ```
