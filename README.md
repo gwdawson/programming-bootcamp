@@ -1,4 +1,4 @@
-## Northcoders Coding Bootcamp
+# Northcoders Coding Bootcamp
 
 ```
 My code and projects from Northcoders Coding Bootcamp
