@@ -1,0 +1,349 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/audiowide/v9/l7gdbjpo0cum0ckerWCdlg_OMRlABg.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+/* HEADER SECTION */
+header {
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #00ff00;
+  /* position: fixed;
+  z-index: 1; */
+}
+
+h1 {
+  text-decoration: underline;
+  font-family: Audiowide;
+  font-size: 3.5rem;
+  color: #fe019a;
+}
+
+/* ARCADE SECTION */
+
+.content_container {
+  background-image: url(./retro-1.jpg);
+  background-size: cover;
+  width: 100%;
+  /* position: absolute;
+  top: 100px;
+  overflow: scroll;
+  z-index: 0; */
+}
+
+section {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.game,
+.game2 {
+  width: 500px;
+  height: 500px;
+  border: 10px solid #cfff04;
+  position: relative;
+  background-color: #000000;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 8px solid #fe019a;
+  color: #cfff04;
+  font-family: Audiowide;
+  font-size: 2rem;
+}
+
+/* GAME 1 */
+
+.top_half {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid black;
+}
+
+.bottom_half {
+  height: 50%;
+  width: 100%;
+}
+
+.target_top {
+  margin-left: 200px;
+}
+
+.center_circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid #1b03a3;
+  width: 180px;
+  height: 180px;
+  color: green;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.half_way_line {
+  width: 100%;
+  height: 5px;
+  background-color: #1b03a3;
+  position: absolute;
+  top: 50%;
+}
+
+.piece_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  /* GAME 1 - move this square by changing the px value of left and top */
+}
+
+.piece_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  /* GAME 1 - move this square by changing the px value of right and bottom */
+}
+
+.piece_three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  /* GAME 1 - move this square by changing the px value of right and top */
+}
+
+.piece_four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  /* GAME 1 - move this square by changing the px value of left and bottom */
+}
+
+/* GAME 2 */
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Audiowide;
+  font-family: 1.7rem;
+}
+
+.left {
+  position: absolute;
+  left: 70px;
+}
+
+.right {
+  position: absolute;
+  right: 70px;
+}
+
+.beam {
+  position: absolute;
+  left: 140px;
+  height: 10px;
+  width: 200px;
+}
+.p {
+  background-color: #fe019a;
+}
+
+.b {
+  background-color: #099fff;
+}
+
+.g {
+  background-color: #00ff00;
+}
+
+.y {
+  background-color: #ffff00;
+}
+
+/* CIRCLES */
+.c-one {
+  position: absolute;
+  top: 90px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+.c-two {
+  position: absolute;
+  top: 160px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+.c-three {
+  position: absolute;
+  top: 230px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+.c-four {
+  position: absolute;
+  top: 300px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+.c-five {
+  position: absolute;
+  top: 90px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+.c-six {
+  position: absolute;
+  top: 160px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+.c-seven {
+  position: absolute;
+  top: 230px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+.c-eight {
+  position: absolute;
+  top: 300px;
+  /* GAME 2 - move this circle by changing the px value of top */
+}
+
+/* BEAMS */
+
+.b-one {
+  position: absolute;
+  top: 110px;
+}
+
+.b-two {
+  position: absolute;
+  top: 180px;
+}
+
+.b-three {
+  position: absolute;
+  top: 250px;
+}
+
+.b-four {
+  position: absolute;
+  top: 320px;
+}
+
+/* GAME 3 */
+
+.game3 {
+  width: 500px;
+  height: 500px;
+  border: 10px solid #cfff04;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.left_wall {
+  height: 100%;
+  width: 210px;
+  background-color: #000000;
+}
+
+.path {
+  width: 80px;
+  height: 100%;
+  position: relative;
+  background-color: #fe019a;
+}
+
+.right_wall {
+  height: 100%;
+  width: 210px;
+  background-color: #000000;
+}
+
+/* Obstacles */
+.obstacle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #cfff04;
+  border: 2px dotted #099fff;
+}
+
+.o-one {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.o-two {
+  position: absolute;
+  top: 110px;
+  left: 40px;
+}
+.o-three {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+}
+.o-four {
+  position: absolute;
+  top: 280px;
+  left: 45px;
+}
+
+.o-five {
+  position: absolute;
+  top: 350px;
+  left: 23px;
+}
+
+.o-six {
+  position: absolute;
+  top: 420px;
+  left: 40px;
+}
+
+/* Player One */
+
+.player_one {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  /* GAME 3 - Guide Player One to safety by changing the px values of top and left here */
+}

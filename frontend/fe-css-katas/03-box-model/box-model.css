@@ -1,0 +1,50 @@
+h1 {
+  text-decoration: underline;
+}
+/* Task 1 */
+code {
+  display: block;
+  background-color: #ffefd6;
+  padding: 3px;
+}
+
+section {
+  display: inline-block;
+  background-color: #ffd79b;
+  padding: 0.5rem 1rem;
+  margin: 1px;
+}
+
+.fn {
+  color: #3a08ff;
+}
+
+.fn-name {
+  color: #c79a3a;
+}
+
+.ret {
+  color: #b10bda;
+}
+
+/* Task 2 */
+
+/* don't change .box */
+.box {
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  padding: 10px;
+  background: yellow;
+  border: 10px solid black;
+}
+
+.border {
+  box-sizing: border-box;
+  /* change height + width here! */
+}
+
+/* don't change .content */
+.content {
+  box-sizing: content-box;
+}

@@ -1,0 +1,27 @@
+h1 {
+  text-decoration: underline;
+}
+
+#sidebar {
+  background: #67ade5;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+#header {
+  background: #e6b549;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+#nav {
+  background: #61bf58;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+#contents {
+  background: #e46058;
+  padding: 2rem;
+  margin: 1rem;
+}

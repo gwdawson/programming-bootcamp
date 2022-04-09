@@ -1,0 +1,95 @@
+/* Blanket Styling */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+  font-size: 16px;
+}
+
+hr.divider {
+  width: 80%;
+  margin: 0 auto;
+}
+/*Body Styling */
+
+body {
+  /* text-align: center; */
+  font-family: Roboto;
+}
+
+/* Container Styling*/
+
+.container {
+  background-color: #fffcba;
+  padding: 10px;
+  width: 100vw; /* <--- Task 4 */
+  height: 100vh; /* <--- Task 4 */
+  margin: 0 auto;
+}
+
+/* Header Styling */
+
+h1 {
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+/* Paragraph Styling */
+
+p.albert_bio {
+  margin-bottom: 20px;
+  font-size: 1rem; /* <-- Task 1*/
+  line-height: 2em; /* <-- Task 2*/
+}
+
+.p_container {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/*List Styling */
+
+ul.quotes_list {
+  list-style: none;
+  font-size: 32px;
+}
+
+.quotes_list li {
+  margin: 10px;
+  font-size: 0.5em; /* <--- Task 3 */
+}
+
+/* Image Styling */
+
+.albert_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.albert_img {
+  border-radius: 50%;
+  border: 5px solid #3f3f3f;
+  width: 170px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.albert_sig {
+  width: 300px;
+  height: 100px;
+}

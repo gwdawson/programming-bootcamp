@@ -1,0 +1,390 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  text-align: center;
+  font-family: Montserrat;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.flags_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Flag Template*/
+
+.flag {
+  height: 160px;
+  width: 300px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+/* ITALY */
+
+.italy {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  outline: 1px solid black;
+  width: 33.3%;
+}
+
+.ita_one {
+  /* insert first background-color*/
+  background: green;
+}
+
+.ita_two {
+  /* insert second background-color*/
+  background: white;
+}
+
+.ita_three {
+  /* insert third background-color*/
+  background: red;
+}
+
+/* BELGIUM */
+
+.belgium {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  outline: 1px solid black;
+  width: 33.3%;
+}
+.bel_one {
+  /* insert first background-color*/
+  background: black;
+}
+
+.bel_two {
+  /* insert second background-color*/
+  background: yellow;
+}
+
+.bel_three {
+  /* insert third background-color*/
+  background: red;
+}
+
+/* MONACO */
+
+.monaco {
+  display: flex;
+  flex-direction: column;
+}
+
+.mon_row {
+  outline: 1px solid black;
+  height: 50%;
+}
+
+.mon_one {
+  /* insert first background-color*/
+  background: red;
+}
+
+.mon_two {
+  /* insert second background-color*/
+  background: white;
+}
+
+/* HEX */
+
+/* ARMENIA */
+
+.armenia {
+  display: flex;
+  flex-direction: column;
+}
+
+.arm_row {
+  outline: 1px solid black;
+  height: 33.3%;
+}
+
+.arm_one {
+  /* insert first background-color*/
+  background: #d90012;
+}
+.arm_two {
+  /* insert second background-color*/
+  background: #0033a0;
+}
+
+.arm_three {
+  /* insert third background-color*/
+  background: #f2a800;
+}
+
+/* BAHAMAS */
+
+.bahamas {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bah_row {
+  outline: 1px solid black;
+  height: 33.3%;
+}
+
+.bah_one {
+  /* insert first background-color*/
+  background: #00a9ce;
+}
+.bah_two {
+  /* insert second background-color*/
+  background: #fdda25;
+}
+
+.bah_three {
+  /* insert third background-color*/
+  background: #00a9ce;
+}
+
+.bah_triangle {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 0 80px 100px;
+  border-color: transparent transparent transparent #000000;
+}
+
+/* CHAD */
+
+.chad {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  outline: 1px solid black;
+  width: 33.3%;
+}
+
+.cha_one {
+  /* insert first background-color*/
+  background: #002664;
+}
+
+.cha_two {
+  /* insert first background-color*/
+  background: #fecb00;
+}
+
+.cha_three {
+  /* insert first background-color*/
+  background: #c60c30;
+}
+
+/* RGB */
+
+/* ESTONIA */
+
+.estonia {
+  display: flex;
+  flex-direction: column;
+}
+
+.est_row {
+  outline: 1px solid black;
+  height: 33.3%;
+}
+
+.est_one {
+  /* insert first background-color*/
+  background: rgb(0, 114, 206);
+}
+.est_two {
+  /* insert second background-color*/
+  background: rgb(0, 0, 0);
+}
+
+.est_three {
+  /* insert third background-color*/
+  background: rgb(255, 255, 255);
+}
+
+/* LAOS */
+
+.laos {
+  display: flex;
+  flex-direction: column;
+}
+
+.lao_row_edge {
+  outline: 1px solid black;
+  height: 25%;
+}
+
+.lao_row_middle {
+  outline: 1px solid black;
+  height: 50%;
+  display: flex;
+}
+
+.lao_circle {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.lao_one {
+  /* insert first background-color*/
+  background: rgb(239, 51, 64);
+}
+.lao_two {
+  /* insert second background-color*/
+  background: rgb(0, 61, 165);
+}
+
+.lao_three {
+  /* insert second background-color*/
+  background: rgb(239, 51, 64);
+}
+
+.lao_four {
+  /* insert circle background-color*/
+  background: rgb(255, 255, 255);
+}
+
+/* YEMEN */
+
+.yemen {
+  display: flex;
+  flex-direction: column;
+}
+
+.yem_row {
+  outline: 1px solid black;
+  height: 33.3%;
+}
+
+.yem_one {
+  /* insert first background-color*/
+  background: rgb(239, 51, 64);
+}
+.yem_two {
+  /* insert second background-color*/
+  background: rgb(255, 255, 255);
+}
+
+.yem_three {
+  /* insert third background-color*/
+  background: rgb(0, 0, 0);
+}
+
+/* HSL */
+
+/* NIGER */
+
+.niger {
+  display: flex;
+  flex-direction: column;
+}
+
+.niger_row {
+  outline: 1px solid black;
+  height: 33.3%;
+}
+
+.niger_circle {
+  width: 45px;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 3px;
+}
+
+.niger_one {
+  /* insert first background-color*/
+  background: hsl(32, 100%, 67%);
+}
+.niger_two {
+  /* insert second background-color*/
+  background: hsl(0, 100%, 100%);
+}
+.niger_three {
+  /* insert third background-color*/
+  background: hsl(143, 100%, 29%);
+}
+.niger_four {
+  /* insert circle background-color*/
+  background: hsl(32, 100%, 67%);
+}
+
+/* LUXEMBOURG */
+
+.luxembourg {
+  display: flex;
+  flex-direction: column;
+}
+
+.lux_row {
+  outline: 1px solid black;
+  height: 33.3%;
+}
+
+.lux_one {
+  /* insert first background-color*/
+  background: hsl(365, 85%, 56%);
+}
+.lux_two {
+  /* insert second background-color*/
+  background: hsl(0, 100%, 100%);
+}
+
+.lux_three {
+  /* insert third background-color*/
+  background: hsl(200, 100%, 47%);
+}
+
+/* SIERRA LEONE */
+
+.sierra_leone {
+  display: flex;
+  flex-direction: column;
+}
+
+.sle_row {
+  outline: 1px solid black;
+  height: 33.3%;
+}
+
+.sle_one {
+  /* insert first background-color*/
+  background: hsl(109, 61%, 42%);
+}
+.sle_two {
+  /* insert first background-color*/
+  background: hsl(0, 100%, 100%);
+}
+
+.sle_three {
+  /* insert first background-color*/
+  background: hsl(207, 72%, 65%);
+}

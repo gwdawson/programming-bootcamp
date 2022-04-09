@@ -1,0 +1,36 @@
+h1 {
+  text-decoration: underline;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background-color: #05668d;
+}
+
+.box2 {
+  background-color: hsl(106, 39%, 56%);
+}
+
+.box3 {
+  background-color: hsl(42, 66%, 61%);
+}
+
+.box4 {
+  background-color: hsl(6, 58%, 60%);
+}
+
+#text-shadow {
+  font-size: 5rem;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0 0 20rem 0;
+  text-align: center;
+}
