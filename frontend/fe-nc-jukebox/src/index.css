@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Zilla Slab', serif;
+  background-color: #fbeaff;
+}
+
+.App {
+  text-align: center;
+  color: #845ec2;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+button {
+  background: #00c9a7;
+  color: white;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1rem;
+}
+
+button:disabled {
+  background: #aaaaaa;
+}
+
+.song-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-item {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.song-item > h2 {
+  margin: 0;
+}
+
+.song-img {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+}
+
+.song-current {
+  display: inline-block;
+  padding: 3px;
+  box-shadow: 0px 0px 8px 2px #9ee5ff;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item-new {
+  background-color: #9ee5ff;
+  border-radius: 10px;
+  max-width: 600px;
+  padding: 20px;
+  margin: 20px;
+}
