@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  font-size: calc(10px + 2vmin);
+}
+
+.Button {
+  width: 75px;
+  height: 75px;
+  background: transparent;
+  border: 4px solid black;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.mg-right {
+  margin-right: 10px;
+}
+.mg-bottom {
+  margin-bottom: 10px;
+}
+
+/* wireframe styling */
+.App {
+  border: 2px solid #364fc7;
+  padding: 20px;
+}
+.Header {
+  border: 2px solid #ff00ff;
+  margin-bottom: 20px;
+}
+.Game {
+  border: 2px solid #a61e4d;
+  padding: 20px;
+}
+.Title {
+  border: 2px solid #e67700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.Board {
+  border: 2px solid #0b7285;
+  padding: 20px;
+}
