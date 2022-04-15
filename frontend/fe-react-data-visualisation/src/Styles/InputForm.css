@@ -1,0 +1,52 @@
+.InputForm {
+  border: 1px solid greenyellow;
+  align-items: center;
+  padding: 15px 15px 0px 15px;
+}
+
+.InputForm__Children {
+  margin-right: 10px !important;
+  margin-bottom: 15px !important;
+}
+.InputForm__Children:last-child {
+  margin-right: 0px !important;
+}
+.Button {
+  width: 167px;
+  height: 3.9em;
+}
+.Button:hover {
+  animation: party 3s linear infinite;
+}
+@keyframes party {
+  10% {
+    background-color: chartreuse;
+  }
+  20% {
+    background-color: rgb(255, 0, 183);
+  }
+  30% {
+    background-color: rgb(22, 24, 20);
+  }
+  40% {
+    background-color: rgb(0, 162, 255);
+  }
+  50% {
+    background-color: rgb(255, 0, 255);
+  }
+  60% {
+    background-color: chartreuse;
+  }
+  70% {
+    background-color: rgb(255, 145, 0);
+  }
+  80% {
+    background-color: rgb(255, 0, 0);
+  }
+  90% {
+    background-color: chartreuse;
+  }
+  100% {
+    background-color: rgb(34, 0, 255);
+  }
+}

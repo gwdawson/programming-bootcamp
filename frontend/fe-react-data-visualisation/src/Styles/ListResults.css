@@ -1,0 +1,33 @@
+.ListResultsTitle {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid maroon;
+  margin-bottom: 15px;
+}
+.Case1 {
+  border: 1px solid blue;
+  padding: 5px;
+  margin-bottom: 5px;
+  /* display: flex;
+  flex-wrap: no-wrap; */
+  /* width: calc(100%-30px / 2); */
+  width: 33.3%;
+  position: relative;
+}
+.Case2 {
+  border: 1px solid rgb(255, 0, 221);
+  padding: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 33.3%;
+  /* width: calc(100%-30px / 2); */
+}
+.data {
+  border: 1px solid red;
+}
+.TestingFlex {
+  border: 1px solid yellowgreen;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
