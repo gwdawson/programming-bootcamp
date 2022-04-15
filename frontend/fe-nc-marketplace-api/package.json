@@ -1,0 +1,44 @@
+{
+  "name": "team-fe-nc-marketplace-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "nodemon listen.js",
+    "start": "node listen.js",
+    "setup-dbs": "psql -f db/setup.sql",
+    "seed-dev": "knex seed:run",
+    "seed-prod": "NODE_ENV=production DATABASE_URL=$(heroku config:get DATABASE_URL) knex seed:run",
+    "build-docs": "cd docs && npm run build -- --out-dir ../public/build",
+    "dev-docs": "cd docs && npm start",
+    "gen-dev-data": "node db/data/genFakeData"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "heroku": "^7.60.1",
+    "knex": "^0.95.11",
+    "lodash": "^4.17.21",
+    "pg": "^8.7.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "jest": "^27.2.5",
+    "jest-extended": "^1.0.0",
+    "jest-sorted": "^1.0.12",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended/all",
+      "jest-sorted"
+    ]
+  }
+}
