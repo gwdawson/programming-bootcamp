@@ -15,9 +15,9 @@ Northcoders continually evaluates the content of its bootcamp curriculum to ensu
 ## Useful Links
 
 - [x] [Northcoders](https://northcoders.com/)
-- [ ] [Northcoders Frontend Project]()
-- [ ] [Northcoders Backend Project]()
-- [ ] [Northcoders Final Project]()
+- [x] [Northcoders Frontend Project](https://github.com/gwdawson/northcoders-frontend-project)
+- [x] [Northcoders Backend Project](https://github.com/gwdawson/northcoders-backend-project)
+- [x] [Northcoders Final Project](https://github.com/prescription-prompt)
 
 # License
 
